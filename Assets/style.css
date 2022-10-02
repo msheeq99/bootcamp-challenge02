@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    background-color: black;
 
 }
 
@@ -32,9 +33,10 @@ body {
 }
 
 .logo h1{
-    color: white;
+    color: #eee;
     font-size: 48px;
     display: inline-block;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo h1 .folio {
@@ -49,8 +51,6 @@ header {
     justify-content: space-between;
 
 }
-
-
 
 nav .hamb{
     width: 35px;
@@ -175,4 +175,69 @@ span{
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 30px;
+}
+
+.social a {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #eee;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 35px;
+}
+
+.social a:hover {
+    transform: scale(1.1);
+    background: #2ecc75;
+    transition: .4s;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+
+.about img{
+    height: auto;
+    width: 300px;
+    tr
+}
+
+.about-text {
+    color: white;
+    width: 550px;
+}
+
+.main {
+    width: auto;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: rgba(173, 243, 180, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
 }
